@@ -24,6 +24,10 @@ flatpak install flathub com.heroicgameslauncher.hgl -y
 
 flatpak install flathub com.vysp3r.ProtonPlus -y
 
+## Betterbird
+
+flatpak install flathub eu.betterbird.Betterbird -y
+
 ## add others as needed ##
 
 ## flatpak install flathub <flatpak-name>
