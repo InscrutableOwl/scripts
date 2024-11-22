@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ## Brave Browser
-
+## better than Firefox
 
 ## curl must be installed
 
