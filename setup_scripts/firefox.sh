@@ -2,6 +2,8 @@
 
 ## Firefox setup script
 
+## Brave is a better choice
+
 ## Remove Firefox-ESR
 
 sudo apt remove firefox-esr -y
