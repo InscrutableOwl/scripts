@@ -1,14 +1,14 @@
 #! /bin/bash
 
-## add ~/.local/bin to path
-
-echo -e 'export PATH=/home/.local/bin:$PATH' >> /home/mattm/.bashrc
-
 ## create directories 
 
 mkdir -p /home/mattm/.local/bin
 
 mkdir -p /home/mattm/.local/share/applications
+
+## add ~/.local/bin to path
+
+echo -e 'export PATH=/home/.local/bin:$PATH' >> /home/mattm/.bashrc
 
 ## install Kitty terminal
 
