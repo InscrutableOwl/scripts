@@ -1,0 +1,13 @@
+mediaring
+repo
+pipewire
+package
+dvd
+nord
+flatpak
+brave
+kitty
+starship
+gitcli
+move
+kicadsetup
