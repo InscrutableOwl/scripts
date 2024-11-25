@@ -17,7 +17,7 @@ bash ~/Documents/deb_scripts/flatpak.sh
 
 bash ~/Documents/deb_scripts/firefox.sh
 
-bash ~/Documents/deb_scripts/kitty.sh
+#bash ~/Documents/deb_scripts/kitty.sh
 
 bash ~/Documents/deb_scripts/starship.sh
 
