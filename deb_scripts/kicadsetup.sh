@@ -2,7 +2,7 @@
 
 ## Add KiCad from backports
 
-sudo apt install -t bookworm-backports kicad
+sudo apt install -t bookworm-backports kicad -y
 
 ## add other packages from backports
 
