@@ -6,9 +6,9 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 
 sudo apt install cmake g++ pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 gzip scdoc
 
-#curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-#. "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
 
 git clone https://github.com/alacritty/alacritty.git
 

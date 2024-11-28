@@ -26,7 +26,7 @@ flatpak install flathub com.vysp3r.ProtonPlus -y
 
 ## Betterbird
 
-#flatpak install flathub eu.betterbird.Betterbird -y
+flatpak install flathub eu.betterbird.Betterbird -y
 
 ## add others as needed ##
 

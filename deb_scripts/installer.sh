@@ -1,5 +1,6 @@
 #! /bin/bash
 
+## for Debian and LMDE 
 
 bash ~/Documents/deb_scripts/mediaring.sh
 
@@ -15,7 +16,7 @@ bash ~/Documents/deb_scripts/nord.sh
 
 bash ~/Documents/deb_scripts/flatpak.sh
 
-bash ~/Documents/deb_scripts/firefox.sh
+bash ~/Documents/deb_scripts/brave.sh
 
 #bash ~/Documents/deb_scripts/kitty.sh
 

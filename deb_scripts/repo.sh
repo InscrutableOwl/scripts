@@ -1,5 +1,7 @@
 #! /bin/bash
 
+## needed for Debian and LMDE
+
 ## add multimedia repo - may need sudo
 
 echo -e 'deb https://www.deb-multimedia.org bookworm main non-free' | sudo tee -a /etc/apt/sources.list.d/multimedia.list
@@ -8,6 +10,8 @@ echo -e 'deb https://www.deb-multimedia.org bookworm main non-free' | sudo tee -
 #deb https://www.deb-multimedia.org bookworm main non-free
 
 ## add backports if not enabled during setup
+
+## Backports not needed for LMDE
 
 #echo -e 'deb https://debian.csail.mit.edu/debian bookworm-backports main' | sudo tee -a /etc/apt/sources.list.d/backports.list
 
