@@ -32,6 +32,6 @@ flatpak install flathub eu.betterbird.Betterbird -y
 
 ## flatpak install flathub <flatpak-name>
 
-flatpak install flathub io.github.realmazharhussain.GdmSettings
+flatpak install flathub io.github.realmazharhussain.GdmSettings -y
 
-flatpak install flathub com.mattjakeman.ExtensionManager
+flatpak install flathub com.mattjakeman.ExtensionManager -y
