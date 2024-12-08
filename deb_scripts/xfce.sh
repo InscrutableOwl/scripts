@@ -15,7 +15,9 @@ sudo apt install amd64-microcode -y
 
 # XFCE
 
-sudo apt install xfce4 xfce4-goodies -y
+sudo apt install xfce4 xfce4-goodies xdg-user-dirs -y
+
+xdg-user-dirs-update
 
 # Network File Tools/System events
 
@@ -36,7 +38,7 @@ sudo systemctl enable cups
 
 # system fonts
 
-sudo apt install fonts-font-awesome fonts-powerline fonts-ubuntu fonts-liberation2 fonts-liberation fonts-terminus -y
+sudo apt install fonts-font-awesome fonts-powerline fonts-ubuntu fonts-liberation2 fonts-liberation fonts-recommended -y
 
 # lightdm greeter settings
 
