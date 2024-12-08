@@ -12,5 +12,5 @@ cp /home/mattm/Pictures/avatars/Owl.png /home/mattm/.face
 
 cp /home/mattm/Documents/dotfiles/starship-dracula.toml /home/mattm/.config/starship.toml
 
-cp /home/mattm/Documents/dotfiles/kitty.conf /home/mattm/.config/kitty/kitty.confs
+cp /home/mattm/Documents/dotfiles/kitty.conf /home/mattm/.config/kitty/kitty.conf
 
