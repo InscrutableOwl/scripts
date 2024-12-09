@@ -2,7 +2,7 @@
 
 ## install flatpak
 
-# sudo apt install flatpak
+# sudo dnf install flatpak
 
 ## Enable Flathub
 
@@ -26,12 +26,12 @@ flatpak install flathub com.vysp3r.ProtonPlus -y
 
 ## Betterbird
 
-flatpak install flathub eu.betterbird.Betterbird -y
+#flatpak install flathub eu.betterbird.Betterbird -y
 
 ## add others as needed ##
 
 ## flatpak install flathub <flatpak-name>
 
-flatpak install flathub io.github.realmazharhussain.GdmSettings -y
+#flatpak install flathub io.github.realmazharhussain.GdmSettings -y
 
-flatpak install flathub com.mattjakeman.ExtensionManager -y
+#flatpak install flathub com.mattjakeman.ExtensionManager -y

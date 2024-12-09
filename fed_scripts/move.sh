@@ -10,4 +10,4 @@ sudo cp -r /home/mattm/Downloads/themes/* /usr/share/themes
 
 cp /home/mattm/Documents/dotfiles/starship-dracula.toml /home/mattm/.config/starship.toml
 
-cp /home/mattm/Documents/dotfiles/kitty.conf /home/mattm/.config/kitty/kitty.confs
+cp /home/mattm/Documents/dotfiles/kitty.conf /home/mattm/.config/kitty/kitty.conf

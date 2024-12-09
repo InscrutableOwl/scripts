@@ -2,4 +2,4 @@
 
 ## Additional packages
 
-sudo dnf install fastfetch lolcat innoextract htop lame dnfdragora dnfdragora-updater git curl timeshift fortune-mod cowsay sl cmatrix qcomicbook
+sudo dnf install fastfetch lolcat innoextract htop lame dnfdragora dnfdragora-updater git curl timeshift fortune-mod cowsay sl cmatrix qcomicbook papirus-icon-theme
