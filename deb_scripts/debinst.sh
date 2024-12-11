@@ -18,7 +18,7 @@ bash ~/scripts/deb_scripts/nord.sh
 
 bash ~/scripts/deb_scripts/flatpak.sh
 
-#bash ~/scripts/deb_scripts/brave.sh
+bash ~/scripts/deb_scripts/firefox.sh
 
 bash ~/scripts/deb_scripts/kitty.sh
 
