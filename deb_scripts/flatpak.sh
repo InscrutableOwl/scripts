@@ -10,7 +10,7 @@ sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flat
 
 ## Discord
 
-flatpak install flathub com.discordapp.Discord -y
+#flatpak install flathub com.discordapp.Discord -y
 
 ## Shortwave
 
