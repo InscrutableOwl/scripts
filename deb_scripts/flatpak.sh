@@ -10,7 +10,7 @@ sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flat
 
 ## Discord
 
-#flatpak install flathub com.discordapp.Discord -y
+flatpak install flathub com.discordapp.Discord -y
 
 ## Shortwave
 
@@ -20,13 +20,21 @@ flatpak install flathub de.haeckerfelix.Shortwave -y
 
 flatpak install flathub com.heroicgameslauncher.hgl -y
 
-## ProtonPlus
-
-flatpak install flathub com.vysp3r.ProtonPlus -y
-
 ## Betterbird
 
-#flatpak install flathub eu.betterbird.Betterbird -y
+flatpak install flathub eu.betterbird.Betterbird -y
+
+## RetroArch
+
+flatpak install flathub org.libretro.RetroArch -y
+
+## Dosbox Staging
+
+flatpak install flathub io.github.dosbox-staging -y
+
+## Bitwarden
+
+#flatpak install flathub com.bitwarden.desktop -y
 
 ## add others as needed ##
 
