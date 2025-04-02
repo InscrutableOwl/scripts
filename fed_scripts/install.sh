@@ -8,8 +8,6 @@ bash ~/Documents/fed_scripts/dnfp.sh
 
 bash ~/Documents/fed_scripts/bravef.sh
 
-bash ~/Documents/fed_scripts/onepass.sh
-
 bash ~/Documents/fed_scripts/flatpak.sh
 
 bash ~/Documents/fed_scripts/kitty.sh

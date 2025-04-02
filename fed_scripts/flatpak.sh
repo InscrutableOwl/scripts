@@ -8,6 +8,10 @@ sudo dnf install flatpak
 
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
+## RetroArch
+
+flatpak install flathub org.libretro.RetroArch -y
+
 ## Discord
 
 flatpak install flathub com.discordapp.Discord -y
@@ -20,9 +24,9 @@ flatpak install flathub de.haeckerfelix.Shortwave -y
 
 flatpak install flathub com.heroicgameslauncher.hgl -y
 
-## Bitwarden
+## Proton Pass
 
-#flatpak install flathub com.bitwarden.desktop -y
+flatpak install flathub me.proton.Pass -y
 
 ## Betterbird
 

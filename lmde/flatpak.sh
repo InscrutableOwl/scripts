@@ -1,8 +1,8 @@
-#! /bin/bash
+#!/bin/bash
 
 ## install flatpak
 
-sudo apt install flatpak
+sudo dnf install flatpak
 
 ## Enable Flathub
 
@@ -24,18 +24,22 @@ flatpak install flathub de.haeckerfelix.Shortwave -y
 
 flatpak install flathub com.heroicgameslauncher.hgl -y
 
+## Proton Pass
+
+flatpak install flathub me.proton.Pass -y
+
 ## Betterbird
 
-#flatpak install flathub eu.betterbird.Betterbird -y
+flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Dosbox Staging
 
 flatpak install flathub io.github.dosbox-staging -y
 
-## Bitwarden
-
-#flatpak install flathub com.bitwarden.desktop -y
-
 ## add others as needed ##
 
 ## flatpak install flathub <flatpak-name>
+
+#flatpak install flathub io.github.realmazharhussain.GdmSettings -y
+
+#flatpak install flathub com.mattjakeman.ExtensionManager -y
