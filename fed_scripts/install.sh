@@ -12,6 +12,8 @@ bash ~/Documents/fed_scripts/flatpak.sh
 
 bash ~/Documents/fed_scripts/kitty.sh
 
+bash ~/Documents/fed_scripts/nord.sh
+
 bash ~/Documents/fed_scripts/starship.sh
 
 bash ~/Documents/fed_scripts/move.sh
