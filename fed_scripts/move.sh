@@ -19,3 +19,5 @@ cp -r /home/mattm/Downloads/themes/* /home/mattm/.themes
 #cp /home/mattm/Documents/dotfiles//config/starship-dracula.toml /home/mattm/.config/starship.toml
 
 cp /home/mattm/Documents/dotfiles/config/kitty/* /home/mattm/.config/kitty/
+
+sudo fc-cache -fv

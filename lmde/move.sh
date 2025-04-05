@@ -22,3 +22,4 @@ cp -r /home/mattm/Downloads/themes/* /home/mattm/.themes
 
 cp /home/mattm/Documents/dotfiles/config/kitty/* /home/mattm/.config/kitty/
 
+sudo fc-cache -fv
