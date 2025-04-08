@@ -2,7 +2,7 @@
 
 ## install flatpak
 
-sudo dnf install flatpak
+sudo apt install flatpak
 
 ## Enable Flathub
 
@@ -24,9 +24,9 @@ flatpak install flathub de.haeckerfelix.Shortwave -y
 
 flatpak install flathub com.heroicgameslauncher.hgl -y
 
-## Proton Pass
+## LibreOffice
 
-flatpak install flathub me.proton.Pass -y
+flatpak install flathub org.libreoffice.LibreOffice -y
 
 ## Betterbird
 
@@ -35,6 +35,10 @@ flatpak install flathub eu.betterbird.Betterbird -y
 ## Dosbox Staging
 
 flatpak install flathub io.github.dosbox-staging -y
+
+## KiCad
+
+flatpak install flathub org.kicad.KiCad
 
 ## add others as needed ##
 
