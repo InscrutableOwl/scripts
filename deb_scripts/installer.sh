@@ -16,7 +16,7 @@ bash ~/Documents/deb_scripts/brave.sh
 
 bash ~/Documents/deb_scripts/onepass.sh
 
-bash ~/Documents/deb_scripts/flatpak.sh
+bash ~/Documents/deb_scripts/flatpakdeb12.sh
 
 bash ~/Documents/deb_scripts/kitty.sh
 

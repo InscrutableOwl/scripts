@@ -24,10 +24,6 @@ flatpak install flathub de.haeckerfelix.Shortwave -y
 
 flatpak install flathub com.heroicgameslauncher.hgl -y
 
-## Proton Pass
-
-flatpak install flathub me.proton.Pass -y
-
 ## Betterbird
 
 flatpak install flathub eu.betterbird.Betterbird -y

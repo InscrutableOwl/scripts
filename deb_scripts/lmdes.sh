@@ -1,15 +1,16 @@
 #! /bin/bash
 
+##for LMDE
 
-bash ~/Documents/deb_scripts/mediaring.sh
-bash ~/Documents/deb_scripts/repo.sh
-bash ~/Documents/deb_scripts/packagemint.sh
-bash ~/Documents/deb_scripts/dvd.sh
-#bash ~/Documents/deb_scripts/nord.sh
-bash ~/Documents/deb_scripts/brave.sh
-bash ~/Documents/deb_scripts/kitty.sh
-#bash ~/Documents/deb_scripts/starship.sh
-#bash ~/Documents/deb_scripts/gitcli.sh
-bash ~/Documents/deb_scripts/move.sh
-bash ~/Documents/deb_scripts/kicadsetup.sh
-bash ~/Documents/deb_scripts/flatpak.sh
+bash ~/Documents/lmde/mediaring.sh
+bash ~/Documents/lmde/repo.sh
+bash ~/Documents/lmde/packagelmde.sh
+bash ~/Documents/lmde/dvd.sh
+bash ~/Documents/lmde/brave.sh
+bash ~/Documents/lmde/nord.sh
+bash ~/Documents/lmde/kitty.sh
+bash ~/Documents/lmde/starship.sh
+bash ~/Documents/lmde/gitcli.sh
+bash ~/Documents/lmde/move.sh
+bash ~/Documents/lmde/kicadsetup.sh
+bash ~/Documents/lmde/flatpaklmde.sh
