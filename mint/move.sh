@@ -12,6 +12,12 @@ mkdir -p /home/mattm/.config/backgrounds
 
 mkdir -p /home/mattm/.config/kitty
 
+sudo cp -r /home/mattm/Downloads/Fonts/* /usr/share/fonts
+
+sudo cp -r /home/mattm/Downloads/icons/* /usr/share/icons
+
+sudo cp -r /home/mattm/Downloads/themes/* /usr/share/themes
+
 cp -r /home/mattm/Downloads/Fonts/* /home/mattm/.fonts
 
 cp -r /home/mattm/Downloads/icons/* /home/mattm/.icons
@@ -22,7 +28,7 @@ cp /home/mattm/Downloads/psone/* /home/mattm/.local/share/sounds
 
 cp -r /home/mattm/Pictures/Wallpapers/* /home/mattm/.config/backgrounds
 
-#cp /home/mattm/Pictures/avatars/Owl.png /home/mattm/.face
+cp /home/mattm/Pictures/avatars/Owl.png /home/mattm/.face
 
 cp /home/mattm/Documents/dotfiles/starship-dracula.toml /home/mattm/.config/starship.toml
 
