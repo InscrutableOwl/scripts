@@ -1,13 +1,5 @@
 #!/bin/bash
 
-## install flatpak
-
-sudo dnf install flatpak
-
-## Enable Flathub
-
-sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
 ## RetroArch
 
 flatpak install flathub org.libretro.RetroArch -y
@@ -36,6 +28,3 @@ flatpak install flathub io.github.dosbox-staging -y
 
 ## flatpak install flathub <flatpak-name>
 
-#flatpak install flathub io.github.realmazharhussain.GdmSettings -y
-
-#flatpak install flathub com.mattjakeman.ExtensionManager -y

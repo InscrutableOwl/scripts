@@ -4,17 +4,21 @@ mkdir -p /home/mattm/.local/share/sounds
 
 mkdir -p /home/mattm/.themes
 
+mkdir -p /home/mattm/.fonts
+
+mkdir -p /home/mattm/.icons
+
 mkdir -p /home/mattm/.config/backgrounds
 
-sudo cp -r /home/mattm/Downloads/Fonts/* /usr/share/fonts
+mkdir -p /home/mattm/.config/kitty
 
-sudo cp -r /home/mattm/Downloads/icons/* /usr/share/icons
+cp -r /home/mattm/Downloads/Fonts/* /home/mattm/.fonts
 
-sudo cp -r /home/mattm/Downloads/themes/* /usr/share/themes
-
-cp /home/mattm/Downloads/psone/* /home/mattm/.local/share/sounds
+cp -r /home/mattm/Downloads/icons/* /home/mattm/.icons
 
 cp -r /home/mattm/Downloads/themes/* /home/mattm/.themes
+
+cp /home/mattm/Downloads/psone/* /home/mattm/.local/share/sounds
 
 cp -r /home/mattm/Pictures/Wallpapers/* /home/mattm/.config/backgrounds
 

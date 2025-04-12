@@ -14,7 +14,7 @@ bash ~/Documents/mint/geany.sh
 
 bash ~/Documents/mint/kitty.sh
 
-bash ~/Documents/mint/flatpakmint.sh
+bash ~/Documents/mint/flatpak.sh
 
 bash ~/Documents/mint/move.sh
 
