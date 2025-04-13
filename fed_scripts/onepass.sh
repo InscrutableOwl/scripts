@@ -12,4 +12,4 @@ sudo rpm --import https://downloads.1password.com/linux/keys/1password.asc
 
 ## Install 1Password
 
-sudo dnf install 1password
+sudo dnf install -y 1password

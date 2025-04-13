@@ -2,7 +2,7 @@
 
 ## install flatpak
 
-sudo dnf install flatpak
+sudo dnf install -y flatpak
 
 ## Enable Flathub
 
@@ -24,13 +24,9 @@ flatpak install flathub de.haeckerfelix.Shortwave -y
 
 flatpak install flathub com.heroicgameslauncher.hgl -y
 
-## Proton Pass
-
-flatpak install flathub me.proton.Pass -y
-
 ## Betterbird
 
-flatpak install flathub eu.betterbird.Betterbird -y
+#flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Dosbox Staging
 

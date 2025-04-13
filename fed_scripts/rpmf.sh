@@ -20,6 +20,6 @@ sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=Package
  
  ## DVD codec
  
-sudo dnf install rpmfusion-free-release-tainted
+sudo dnf install -y rpmfusion-free-release-tainted
  
-sudo dnf install libdvdcss
+sudo dnf install -y libdvdcss
