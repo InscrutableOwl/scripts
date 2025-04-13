@@ -24,6 +24,14 @@ flatpak install flathub eu.betterbird.Betterbird -y
 
 flatpak install flathub io.github.dosbox-staging -y
 
+## GDM settings
+
+flatpak install flathub io.github.realmazharhussain.GdmSettings -y
+
+## Extension Manager
+
+flatpak install flathub com.mattjakeman.ExtensionManager -y
+
 ## add others as needed ##
 
 ## flatpak install flathub <flatpak-name>
