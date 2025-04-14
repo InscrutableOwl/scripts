@@ -30,7 +30,7 @@ cp -r /home/mattm/Pictures/Wallpapers/* /home/mattm/.config/backgrounds
 
 cp /home/mattm/Pictures/avatars/Owl.png /home/mattm/.face
 
-cp /home/mattm/Documents/dotfiles/tokyo-night.toml /home/mattm/.config/starship.toml
+cp /home/mattm/Documents/dotfiles/starship-dracula.toml /home/mattm/.config/starship.toml
 
 cp /home/mattm/Documents/dotfiles/config/kitty/* /home/mattm/.config/kitty/
 
