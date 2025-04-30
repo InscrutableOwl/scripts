@@ -1,2 +1,2 @@
 # scripts
-Scripts for kinux installs
+Scripts for Linux installs
