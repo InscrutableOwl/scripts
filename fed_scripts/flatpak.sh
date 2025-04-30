@@ -26,7 +26,7 @@ flatpak install flathub com.discordapp.Discord -y
 
 ## Betterbird
 
-flatpak install flathub eu.betterbird.Betterbird -y
+#flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Dosbox Staging
 
