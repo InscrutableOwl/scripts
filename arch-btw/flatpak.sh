@@ -1,0 +1,29 @@
+#!/bin/bash
+
+## Enable Flathub
+
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+## RetroArch
+
+flatpak install flathub org.libretro.RetroArch -y
+
+## Shortwave
+
+# flatpak install flathub de.haeckerfelix.Shortwave -y
+
+## LibreOffice
+
+#flatpak install flathub org.libreoffice.LibreOffice -y
+
+## Dosbox Staging
+
+#flatpak install flathub io.github.dosbox-staging -y
+
+## KiCad
+
+#flatpak install flathub org.kicad.KiCad -y
+
+## add others as needed ##
+
+## flatpak install flathub <flatpak-name>
