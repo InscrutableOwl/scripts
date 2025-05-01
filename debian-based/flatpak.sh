@@ -18,7 +18,7 @@ flatpak install flathub org.libreoffice.LibreOffice -y
 
 ## Betterbird
 
-flatpak install flathub eu.betterbird.Betterbird -y
+#flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Dosbox Staging
 
