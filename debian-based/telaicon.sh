@@ -4,7 +4,7 @@ git clone https://github.com/vinceliuice/Tela-icon-theme.git
 
 cd Tela-icon-theme
 
-./install.sh -d /usr/share/icons dracula blue orange
+sudo ./install.sh -d /usr/share/icons dracula blue orange
 
 
 
