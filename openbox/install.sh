@@ -11,7 +11,7 @@ bash ~/scripts/openbox/dvd.sh
 bash ~/scripts/openbox/firefox.sh
 bash ~/scripts/openbox/kitty.sh
 bash ~/scripts/openbox/starship.sh
-bash ~/scripts/openbox/codium.sh
+# bash ~/scripts/openbox/codium.sh
 bash ~/scripts/openbox/gitcli.sh
 bash ~/scripts/openbox/picom.sh
 bash ~/scripts/openbox/flatpakdeb12.sh
