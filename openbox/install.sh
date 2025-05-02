@@ -17,4 +17,5 @@ bash ~/scripts/openbox/picom.sh
 bash ~/scripts/openbox/flatpakdeb12.sh
 bash ~/scripts/openbox/telaicon.sh
 bash ~/scripts/openbox/nerdfonts.sh
+bash ~/scripts/openbox/nord.sh
 bash ~/scripts/openbox/move.sh

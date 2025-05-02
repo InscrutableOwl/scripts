@@ -20,5 +20,7 @@ bash ~/scripts/mint/nerdfonts.sh
 
 bash ~/scripts/mint/gitcli.sh
 
+bash ~/scripts/mint/nord.sh
+
 bash ~/scripts/mint/telaicon.sh
 
