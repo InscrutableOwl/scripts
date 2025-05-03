@@ -24,25 +24,21 @@ flatpak install flathub com.discordapp.Discord -y
 
 #flatpak install flathub com.heroicgameslauncher.hgl -y
 
-## Betterbird
+## ProtonPass
 
-#flatpak install flathub eu.betterbird.Betterbird -y
+flatpak install flathub me.proton.Pass -y
 
 ## Dosbox Staging
 
 flatpak install flathub io.github.dosbox-staging -y
 
-## Bitwarden
-
-flatpak install flathub com.bitwarden.desktop -y
-
 ## GDM Settings
 
-flatpak install flathub io.github.realmazharhussain.GdmSettings -y
+#flatpak install flathub io.github.realmazharhussain.GdmSettings -y
 
 ## Extension Manager
 
-flatpak install flathub com.mattjakeman.ExtensionManager -y
+#flatpak install flathub com.mattjakeman.ExtensionManager -y
 
 ## add others as needed ##
 

@@ -6,7 +6,7 @@ bash ~/scripts/fed_scripts/rpmf.sh
 
 bash ~/scripts/fed_scripts/dnfp.sh
 
-bash ~/scripts/fed_scripts/brave.sh
+#bash ~/scripts/fed_scripts/brave.sh
 
 bash ~/scripts/fed_scripts/flatpak.sh
 
