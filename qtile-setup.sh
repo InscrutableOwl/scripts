@@ -4,7 +4,7 @@
 
 ##install dependencies
 
-sudo apt install python3 python3-pip python3-venv python3-v-sim python-dbus-dev libpangocairo-1.0-0 python3-cairocffi python3-xcfflib libxkbcommon-dev libxkbcommon-x11-dev sxhkd
+sudo apt install python3 python3-pip python3-venv python3-v-sim python-dbus-dev libpangocairo-1.0-0 python3-cairocffi python3-xcffib libxkbcommon-dev libxkbcommon-x11-dev sxhkd
 
 ##Create virtual python3 environment
 
