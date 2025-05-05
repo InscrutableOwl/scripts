@@ -32,10 +32,6 @@ flatpak install flathub io.github.dosbox-staging -y
 
 flatpak install flathub org.kicad.KiCad -y
 
-## Bitwarden
-
-flatpak install flathub com.bitwarden.desktop -y
-
 ## add others as needed ##
 
 ## flatpak install flathub <flatpak-name>
