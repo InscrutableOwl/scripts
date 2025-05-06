@@ -15,4 +15,4 @@ bash ~/scripts/debian-based/flatpak.sh
 bash ~/scripts/debian-based/nerdfonts.sh
 # bash ~/scripts/debian-based/kicadsetup.sh
 bash ~/scripts/debian-based/codium.sh
-# bash ~/scripts/debian-based/telaicon.sh
+bash ~/scripts/debian-based/telaicon.sh
