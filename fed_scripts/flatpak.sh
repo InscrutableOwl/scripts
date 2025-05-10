@@ -32,6 +32,10 @@ flatpak install flathub me.proton.Pass -y
 
 flatpak install flathub io.github.dosbox-staging -y
 
+## Betterbird
+
+flatpak install flathub eu.betterbird.Betterbird -y
+
 ## GDM Settings
 
 #flatpak install flathub io.github.realmazharhussain.GdmSettings -y
