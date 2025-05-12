@@ -36,9 +36,13 @@ flatpak install flathub io.github.dosbox-staging -y
 
 flatpak install flathub org.kicad.KiCad -y
 
-## Bitwarden
+## Proton Pass
 
-# flatpak install flathub com.bitwarden.desktop -y
+flatpak install flathub me.proton.Pass -y
+
+## Proton Mail
+
+flatpak install flathub me.proton.Mail -y
 
 ## add others as needed ##
 
