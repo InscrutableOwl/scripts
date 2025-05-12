@@ -1,0 +1,7 @@
+#! /bin/bash
+
+## Debian packages
+
+sudo apt install lolcat innoextract htop lame git curl stow fortune-mod fortunes cowsay cowsay-off sl cmatrix cmatrix-xfont thunderbird vlc qcomicbook flatpak bibata-cursor-theme neofetch audacious tilix cgns-convert wxmaxima sox cmake meson ninja-build pkg-config nitrogen feh rofi lightdm-settings slick-greeter -y
+
+# sudo apt remove firefox-esr libreoffice-* -y
