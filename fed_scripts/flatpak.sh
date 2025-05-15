@@ -26,7 +26,7 @@ flatpak install flathub com.discordapp.Discord -y
 
 ## ProtonPass
 
-flatpak install flathub me.proton.Pass -y
+# flatpak install flathub me.proton.Pass -y
 
 ## Dosbox Staging
 

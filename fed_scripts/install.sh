@@ -12,7 +12,7 @@ bash ~/scripts/fed_scripts/flatpak.sh
 
 bash ~/scripts/fed_scripts/ghcli.sh
 
-bash ~/scripts/fed_scripts/kitty.sh
+# bash ~/scripts/fed_scripts/kitty.sh
 
 bash ~/scripts/fed_scripts/move.sh
 
