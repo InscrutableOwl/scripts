@@ -22,11 +22,11 @@ flatpak install flathub com.discordapp.Discord -y
 
 ## LibreOffice
 
-flatpak install flathub org.libreoffice.LibreOffice -y
+# flatpak install flathub org.libreoffice.LibreOffice -y
 
 ## Betterbird
 
-# flatpak install flathub eu.betterbird.Betterbird -y
+flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Dosbox Staging
 
@@ -34,15 +34,11 @@ flatpak install flathub io.github.dosbox-staging -y
 
 ## KiCad
 
-flatpak install flathub org.kicad.KiCad -y
+# flatpak install flathub org.kicad.KiCad -y
 
-## Proton Pass
+## Bitwarden
 
-flatpak install flathub me.proton.Pass -y
-
-## Proton Mail
-
-flatpak install flathub me.proton.Mail -y
+flatpak install flathub com.bitwarden.desktop -y
 
 ## add others as needed ##
 
