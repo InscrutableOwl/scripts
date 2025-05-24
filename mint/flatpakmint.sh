@@ -16,10 +16,6 @@ flatpak install flathub de.haeckerfelix.Shortwave -y
 
 flatpak install flathub com.heroicgameslauncher.hgl -y
 
-## Betterbird
-
-flatpak install flathub eu.betterbird.Betterbird -y
-
 ## Dosbox Staging
 
 flatpak install flathub io.github.dosbox-staging -y
