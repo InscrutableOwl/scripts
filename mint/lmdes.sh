@@ -2,17 +2,17 @@
 
 ##for 12
 
-bash ~/setup/mint/mediaring.sh
-bash ~/setup/mint/repo.sh
-bash ~/setup/mint/packagelmde.sh
-bash ~/setup/mint/brave.sh
-bash ~/setup/mint/dvd.sh
-bash ~/setup/mint/nord.sh
-bash ~/setup/mint/gitcli.sh
-#bash ~/setup/mint/kitty.sh
-bash ~/setup/mint/flatpakmint.sh
-bash ~/setup/mint/telaicon.sh
-bash ~/setup/mint/move.sh
-bash ~/setup/mint/nerdfonts.sh
+bash ~/scripts/mint/mediaring.sh
+bash ~/scripts/mint/repo.sh
+bash ~/scripts/mint/packagelmde.sh
+bash ~/scripts/mint/brave.sh
+bash ~/scripts/mint/dvd.sh
+bash ~/scripts/mint/nord.sh
+bash ~/scripts/mint/gitcli.sh
+bash ~/scripts/mint/kitty.sh
+bash ~/scripts/mint/flatpakmint.sh
+bash ~/scripts/mint/telaicon.sh
+bash ~/scripts/mint/move.sh
+bash ~/scripts/mint/nerdfonts.sh
 
 git clone https://github.com/InscrutableOwl/dotfiles.git ~/dotfiles
