@@ -5,7 +5,6 @@
 bash ~/scripts/mint/mediaring.sh
 bash ~/scripts/mint/repo.sh
 bash ~/scripts/mint/packagelmde.sh
-bash ~/scripts/mint/brave.sh
 bash ~/scripts/mint/dvd.sh
 bash ~/scripts/mint/nord.sh
 bash ~/scripts/mint/gitcli.sh
