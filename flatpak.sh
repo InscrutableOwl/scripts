@@ -1,5 +1,7 @@
 #!/bin/bash
 
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 ## RetroArch
 
 flatpak install flathub org.libretro.RetroArch -y
@@ -14,7 +16,11 @@ flatpak install flathub com.discordapp.Discord -y
 
 ## Heroic Games Launcher
 
-#flatpak install flathub com.heroicgameslauncher.hgl -y
+flatpak install flathub com.heroicgameslauncher.hgl -y
+
+## Betterbird
+
+flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Dosbox Staging
 
