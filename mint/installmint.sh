@@ -4,8 +4,6 @@
 
 bash ~/setup/mint/packagemint.sh
 
-bash ~/setup/mint/brave.sh
-
 bash ~/setup/mint/dvd.sh
 
 bash ~/setup/mint/flatpakmint.sh
