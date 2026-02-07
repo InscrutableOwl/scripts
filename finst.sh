@@ -2,7 +2,7 @@
 
 sudo dnf upgrade
 
-sudo dnf install lolcat innoextract git curl wget sl vlc htop btop cowsay maxima wxmaxima stow fortune-mod papirus-icon-theme nethack fastfetch -y
+sudo dnf install lolcat innoextract git curl wget sl vlc htop kitty btop cowsay maxima wxmaxima stow fortune-mod papirus-icon-theme fastfetch -y
 
 ##RPMFusion
 
