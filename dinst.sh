@@ -18,4 +18,5 @@ sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb && sudo apt update
 
 sudo apt install proton-vpn-cli
 
+bash ~/scripts/kitty.sh
 
