@@ -1,0 +1,13 @@
+sudo apt purge brave-browser brave-keyring
+
+sudo apt autoremove 
+
+sudo rm /etc/apt/sources.list.d/brave-browser-*.list
+
+rm -rf ~/.config/BraveSoftware
+
+rm -rf ~/.cache/BraveSoftware
+
+rm -rf ~/.local/share/keyrings/brave-browser*
+
+# Don't use brave #

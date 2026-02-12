@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+
+if [ "${UID}" != "0" ]; then
+  echo "You must be root to run this script"
+  exit 1
+fi
+
+echo "Starting script..."
+
+echo "Updating Repositories"
+sleep 2
+apt-get update
+wait
+apt-get upgrade -y
+wait
+
+lite=0
+
+while [ $# -gt 0 ]; do
+  case "${1}" in
+   -l|--lite)
+      lite=1
+      shift;;
+    *)
+  esac
+done
+    
+if [ "${lite}" -eq 0 ]; then
+  echo "Install all packages"
+  sleep 2
+  apt-get install -y gnome gnome-core gnome-software gnome-shell rpi-chromium-mods xorg #installs all required packages
+  wait
+else
+  echo "Install minimal options."
+  sudo apt install -y gnome-session gnome-shell nautilus gedit gnome-terminal seahorse gnome-tweaks rpi-chromium-mods
+  wait
+fi
+
+echo "Start Gnome at boot"
+sudo systemctl set-default graphical.target
+
+echo "Disabling dhcpcd to be able to connect to wifi via gnome network manager"
+echo "And enabling Network Manager to manage interfaces"
+sleep 2
+systemctl disable dhcpcd && /etc/init.d/dhcpcd stop
+sed -i s/managed=false/managed=true/ /etc/NetworkManager/NetworkManager.conf
+systemctl enable NetworkManager
+
+echo "change permission settings for GNOME"
+sleep 2
+sudo touch /etc/polkit-1/localauthority.conf.d/51-admin.conf
+wait
+sudo sh -c 'echo "[Configuration]" >> /etc/polkit-1/localauthority.conf.d/51-admin.conf'
+wait
+sudo sh -c 'echo "AdminIdentities=unix-group:sudo;unix-group:admin" >> /etc/polkit-1/localauthority.conf.d/51-admin.conf'
+wait
+
+echo "Rebooting, enjoy your new desktop!"
+sleep 2
+reboot
