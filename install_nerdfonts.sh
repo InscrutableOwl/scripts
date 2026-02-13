@@ -39,7 +39,7 @@ fonts=(
     "BigBlueTerminal"
     "SpaceMono"
     "FiraCode"
-    "3720"
+    "MartianMono"
 )
 
 # Font version and directories
