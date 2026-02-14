@@ -8,6 +8,8 @@ packages=(
     stow
     lame
     curl
+    fzf
+    yazi
     sl
     bat
     eza
