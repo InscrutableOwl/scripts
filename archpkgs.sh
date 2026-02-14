@@ -19,6 +19,7 @@ packages=(
     chromium
     betterbird-bin
     proton-vpn-cli
+    bibata-cursor-theme
 )
 
 for package in ${packages[@]}; do
