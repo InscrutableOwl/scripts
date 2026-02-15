@@ -16,7 +16,7 @@ sudo dnf install rpmfusion-free-release-tainted
 
 sudo dnf install libdvdcss
 
-# sudo dnf install rpmfusion-nonfree-release-tainted
+sudo dnf install rpmfusion-nonfree-release-tainted
 
 # sudo dnf --repo=rpmfusion-nonfree-tainted install "*-firmware"
 
