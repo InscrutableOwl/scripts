@@ -11,6 +11,7 @@ packages=(
     fzf
     yazi
     sl
+    mplayer
     bat
     eza
     vlc
@@ -18,6 +19,7 @@ packages=(
     libdvdcss
     mpv
     ani-cli
+    ghostty
     chromium
     betterbird-bin
     proton-vpn-cli
