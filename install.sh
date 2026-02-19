@@ -18,3 +18,5 @@ bash ~/scripts/gitcli.sh
 
 bash ~/scripts/protonvpn.sh
 
+bash ~/scripts/theme.sh
+
