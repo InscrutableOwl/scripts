@@ -24,6 +24,7 @@ packages=(
     betterbird-bin
     proton-vpn-cli
     bibata-cursor-theme
+    zen-browser-bin
 )
 
 for package in ${packages[@]}; do
