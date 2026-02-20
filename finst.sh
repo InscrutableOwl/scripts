@@ -1,8 +1,8 @@
 #!/bin/bash
 
-bash ~/scripts/fedpkg.sh
-
 bash ~/scripts/rpmf.sh
+
+bash ~/scripts/fedpkg.sh
 
 bash ~/scripts/copr.sh
 
