@@ -24,6 +24,7 @@ packages=(
     betterbird-bin
     proton-vpn-cli
     bibata-cursor-theme
+    picom-ftlabs-git
     zen-browser-bin
     ttf-jetbrains-mono-nerd
     ttf-space-mono-nerd
