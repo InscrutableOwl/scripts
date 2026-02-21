@@ -25,6 +25,12 @@ packages=(
     proton-vpn-cli
     bibata-cursor-theme
     zen-browser-bin
+    ttf-jetbrains-mono-nerd
+    ttf-space-mono-nerd
+    ttf-martian-mono-nerd
+    ttf-heavydata-nerd
+    ttf-bigblueterminal-nerd
+    ttf-firacode-nerd
 )
 
 for package in ${packages[@]}; do
