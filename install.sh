@@ -1,14 +1,18 @@
 #!/bin/bash
 
+bash ~/scripts/mediaring.sh
+
+bash ~/scripts/repo.sh
+
 bash ~/scripts/package.sh
 
-bash ~/scripts/dvd.sh
+# bash ~/scripts/dvd.sh
 
 bash ~/scripts/install_nerdfonts.sh
 
 bash ~/scripts/kitty.sh
 
-bash ~/scripts/qtilepkgs.sh
+# bash ~/scripts/qtilepkgs.sh
 
 git clone https://github.com/InscrutableOwl/dotfiles.git ~/dotfiles
 
