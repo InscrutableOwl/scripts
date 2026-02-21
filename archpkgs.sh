@@ -20,7 +20,6 @@ packages=(
     mpv
     ani-cli
     ghostty
-    chromium
     betterbird-bin
     proton-vpn-cli
     bibata-cursor-theme
