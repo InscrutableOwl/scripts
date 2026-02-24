@@ -20,6 +20,6 @@ rm ~/.bashrc
 
 cd ~/dotfiles
 
-stow bashrc ghostty sounds
+stow bashrc sounds
 
 cd
