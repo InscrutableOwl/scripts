@@ -10,6 +10,8 @@ bash ~/scripts/fedproton.sh
 
 git clone https://github.com/InscrutableOwl/dotfiles.git ~/dotfiles
 
+bash ~/scripts/brave.sh
+
 bash ~/scripts/theme.sh
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -20,6 +22,6 @@ rm ~/.bashrc
 
 cd ~/dotfiles
 
-stow bashrc sounds
+stow bashrc kitty sounds
 
 cd
