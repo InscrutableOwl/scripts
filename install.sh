@@ -10,7 +10,7 @@ bash ~/scripts/package.sh
 
 bash ~/scripts/install_nerdfonts.sh
 
-# bash ~/scripts/kitty.sh
+bash ~/scripts/kitty.sh
 
 # bash ~/scripts/qtilepkgs.sh
 
