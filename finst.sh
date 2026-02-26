@@ -18,10 +18,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 sudo dnf upgrade --enablerepo=updates-testing --refresh --advisory=FEDORA-2026-8a21370dac
 
-rm ~/.bashrc
+# rm ~/.bashrc
 
-cd ~/dotfiles
+# cd ~/dotfiles
 
-stow bashrc kitty sounds
+# stow bashrc kitty sounds
 
-cd
+# cd
