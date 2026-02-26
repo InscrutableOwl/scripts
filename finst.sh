@@ -18,6 +18,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 sudo dnf upgrade --enablerepo=updates-testing --refresh --advisory=FEDORA-2026-8a21370dac
 
+. "$HOME/.cargo/env"
+
+cargo install eza
+
 # rm ~/.bashrc
 
 # cd ~/dotfiles
