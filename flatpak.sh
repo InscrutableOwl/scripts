@@ -11,7 +11,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 ## Betterbird
 
-# flatpak install flathub eu.betterbird.Betterbird -y
+flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Krita
 

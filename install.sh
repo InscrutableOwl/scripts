@@ -10,7 +10,7 @@ bash ~/scripts/package.sh
 
 bash ~/scripts/install_nerdfonts.sh
 
-bash ~/scripts/kitty.sh
+bash ~/scripts/codium.sh
 
 # bash ~/scripts/qtilepkgs.sh
 
@@ -18,9 +18,12 @@ git clone https://github.com/InscrutableOwl/dotfiles.git ~/dotfiles
 
 bash ~/scripts/gitcli.sh
 
-# bash ~/scripts/install_picom.sh
+bash ~/scripts/flatpak.sh
 
 bash ~/scripts/protonvpn.sh
 
 bash ~/scripts/theme.sh
 
+bash ~/scripts/brave.sh
+
+bash ~/scripts/cleanup.sh
