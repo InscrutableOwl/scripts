@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt remove --purge firefox-esr
+git clone https://github.com/InscrutableOwl/dotfiles.git ~/dotfiles
 
 rm ~/.bashrc
 

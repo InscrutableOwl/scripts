@@ -3,7 +3,7 @@
 sudo dnf copr enable derisis13/ani-cli -y
 sudo dnf install ani-cli -y
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl https://sh.rustup.rs -sSf | sh
 
 . "$HOME/.cargo/env"
 
