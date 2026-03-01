@@ -2,4 +2,4 @@
 
 sudo dnf upgrade
 
-sudo dnf install fastfetch lightdm-settings slick-greeter lolcat innoextract git htop stow rofi alacritty tealdeer lame curl cowsay sl btop gcc make cmatrix bat vlc maxima wxMaxima papirus-icon-theme mpv mplayer -y
+sudo dnf install fastfetch lightdm-settings slick-greeter lolcat innoextract git htop stow alacritty tealdeer lame curl cowsay sl btop gcc make cmatrix bat vlc maxima wxMaxima papirus-icon-theme gnome-tweaks mpv mplayer chromium fedora-chromium-config fedora-chromium-config-gnome -y

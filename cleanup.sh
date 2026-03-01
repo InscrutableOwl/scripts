@@ -6,6 +6,6 @@ rm ~/.bashrc
 
 cd ~/dotfiles
 
-stow bashrc rofi sounds alacritty
+stow bashrc sounds alacritty
 
 cd
