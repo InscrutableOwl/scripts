@@ -8,12 +8,8 @@ stow bashrc sounds alacritty
 
 cd
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-echo >> /home/mattm/.bashrc
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"' >> /home/mattm/.bashrc
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
+. "$HOME/,cargo/env"
 
-brew install gcc
-
-brew install tealdeer
+cargo install tealdeer
