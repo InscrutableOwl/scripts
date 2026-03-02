@@ -1,12 +1,13 @@
 #!/bin/bash
 
-wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.8_all.deb
+#wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.8_all.deb
 
-sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb && sudo apt update
+#sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb && sudo apt update
 
-sudo apt install proton-vpn-cli
+#sudo apt install proton-vpn-cli
 
-#wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.3-1.noarch.rpm"
-#sudo dnf install ./protonvpn-stable-release-1.0.3-1.noarch.rpm && sudo dnf check-update --refresh 
+wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.3-1.noarch.rpm"
 
-#sudo dnf install proton-vpn-gnome-desktop 
+sudo dnf install ./protonvpn-stable-release-1.0.3-1.noarch.rpm && sudo dnf check-update --refresh 
+
+sudo dnf install proton-vpn-cli
