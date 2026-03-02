@@ -24,6 +24,6 @@ bash ~/scripts/protonvpn.sh
 
 bash ~/scripts/theme.sh
 
-bash ~/scripts/brave.sh
+# bash ~/scripts/brave.sh
 
 bash ~/scripts/cleanup.sh
