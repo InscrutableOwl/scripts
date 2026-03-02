@@ -4,4 +4,4 @@
 
 sudo apt update && sudo apt upgrade
 
-sudo apt install lolcat innoextract git htop stow flatpak rofi alacritty lame curl fortune-mod fortunes cowsay sl btop cmatrix bat eza nala vlc cgns-convert wxmaxima mplayer mpv papirus-icon-theme bibata-cursor-theme ani-cli fastfetch lightdm-settings slick-greeter -y
+sudo apt install lolcat innoextract git htop stow flatpak rofi alacritty lame curl fortune-mod fortunes cowsay sl btop cmatrix bat eza nala vlc cgns-convert wxmaxima mplayer mpv papirus-icon-theme bibata-cursor-theme ani-cli fastfetch lightdm-settings slick-greeter build-essential gcc make -y
