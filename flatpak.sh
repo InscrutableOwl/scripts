@@ -3,7 +3,7 @@
 
 # sudo apt install gnome-software-plugin-flatpak
 
-# flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 ## RetroArch
 
@@ -31,7 +31,7 @@ flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Gnome Extension Manager
 
-flatpak install flathub com.mattjakeman.ExtensionManager -y
+# flatpak install flathub com.mattjakeman.ExtensionManager -y
 
 ## add others as needed ##
 
