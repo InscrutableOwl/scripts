@@ -11,7 +11,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 ## Betterbird
 
-# flatpak install flathub eu.betterbird.Betterbird -y
+flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Krita
 
@@ -32,6 +32,10 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 ## Gnome Extension Manager
 
 # flatpak install flathub com.mattjakeman.ExtensionManager -y
+
+## Zen Browser
+
+flatpak install flathub app.zen_browser.zen
 
 ## add others as needed ##
 
