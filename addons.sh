@@ -9,4 +9,4 @@ curl https://sh.rustup.rs -sSf | sh
 
 cargo install eza
 
-sudo dnf upgrade --enablerepo=updates-testing --refresh --advisory=FEDORA-2026-8a21370dac
+#sudo dnf upgrade --enablerepo=updates-testing --refresh --advisory=FEDORA-2026-8a21370dac
