@@ -10,3 +10,4 @@ stow bashrc sounds alacritty
 
 cd
 
+sudo dnf remove firefox
