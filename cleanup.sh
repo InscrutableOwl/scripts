@@ -10,4 +10,4 @@ stow bashrc sounds alacritty rofi
 
 cd
 
-sudo dnf remove firefox
+sudo dnf remove firefox thunderbird -y

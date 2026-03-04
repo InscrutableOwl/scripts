@@ -16,4 +16,4 @@ cp -r ~/theming/avatars ~/Pictures
 
 cp -r ~/theming/walls ~/Pictures
 
-cp ~/theming/avatars/owlface.jpg ~/.face
+#cp ~/theming/avatars/owlface.jpg ~/.face
