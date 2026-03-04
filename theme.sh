@@ -10,10 +10,12 @@ sudo cp -r ~/theming/backgrounds/* /usr/share/backgrounds
 
 sudo cp -r ~/theming/fonts/* /usr/share/fonts
 
+sudo cp -r ~/theming/icons/* /usr/share/icons
+
 cp -r ~/theming/themes/* ~/.themes
 
 cp -r ~/theming/avatars ~/Pictures
 
 cp -r ~/theming/walls ~/Pictures
 
-#cp ~/theming/avatars/owlface.jpg ~/.face
+cp ~/theming/avatars/owlface.jpg ~/.face
