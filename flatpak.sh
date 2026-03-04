@@ -35,7 +35,7 @@ flatpak install flathub eu.betterbird.Betterbird -y
 
 ## Zen Browser
 
-flatpak install flathub app.zen_browser.zen
+flatpak install flathub app.zen_browser.zen -y
 
 ## add others as needed ##
 
