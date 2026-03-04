@@ -2,12 +2,12 @@
 
 git clone https://github.com/InscrutableOwl/dotfiles.git ~/dotfiles
 
-rm ~/.bashrc
+#rm ~/.bashrc
 
-cd ~/dotfiles
+#cd ~/dotfiles
 
-stow bashrc sounds alacritty rofi
+#stow bashrc sounds alacritty rofi
 
-cd
+#cd
 
-sudo dnf remove firefox -y
+#sudo dnf remove firefox -y
