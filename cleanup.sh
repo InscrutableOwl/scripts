@@ -10,4 +10,4 @@ git clone https://github.com/InscrutableOwl/dotfiles.git ~/dotfiles
 
 #cd
 
-#sudo dnf remove firefox -y
+sudo snap remove firefox thunderbird -y
