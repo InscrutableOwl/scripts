@@ -29,6 +29,10 @@ flatpak install flathub eu.betterbird.Betterbird -y
 
 # flatpak install flathub io.gitlab.librewolf-community
 
+## VSCodium
+
+flatpak install flathub com.vscodium.codium -y
+
 ## Gnome Extension Manager
 
 # flatpak install flathub com.mattjakeman.ExtensionManager -y
