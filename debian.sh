@@ -1,8 +1,8 @@
 #!/bin/bash
 
-bash ~/scripts/mediaring.sh
+#bash ~/scripts/mediaring.sh
 
-bash ~/scripts/repo.sh
+#bash ~/scripts/repo.sh
 
 bash ~/scripts/package.sh
 
