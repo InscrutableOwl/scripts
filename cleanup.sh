@@ -10,4 +10,4 @@ stow bashrc sounds alacritty rofi
 
 cd
 
-sudo apt remove firefox -y
+sudo dnf remove firefox -y
