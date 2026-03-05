@@ -8,7 +8,7 @@ bash ~/scripts/package.sh
 
 bash ~/scripts/flatpak.sh
 
-bash ~/scripts/protonvpn.sh
+bash ~/scripts/protonvpndeb.sh
 
 bash ~/scripts/theme.sh
 

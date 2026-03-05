@@ -12,6 +12,6 @@ bash ~/scripts/flatpak.sh
 
 bash ~/scripts/protonvpn.sh
 
-bash ~/scripts/theme.sh
+bash ~/scripts/ftheme.sh
 
-bash ~/scripts/cleanup.sh
+bash ~/scripts/fcleanup.sh

@@ -2,5 +2,5 @@
 
 bash ~/scripts/package.sh
 bash ~/scripts/dvd.sh
-bash ~/scripts/protonvpn.sh
+bash ~/scripts/protonvpndeb.sh
 bash ~/scripts/cleanup.sh
