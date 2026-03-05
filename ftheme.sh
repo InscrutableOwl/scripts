@@ -2,7 +2,7 @@
 
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
 
-mkdir -p ~/.color-schemes
+mkdir -p ~/.local/share/color-schemes
 
 #sudo cp -r ~/theming/themes/* /usr/share/themes
 
@@ -12,7 +12,7 @@ sudo cp -r ~/theming/fonts/* /usr/share/fonts
 
 sudo cp -r ~/theming/icons/* /usr/share/icons
 
-#cp -r ~/theming/themes/* ~/.themes
+cp  ~/theming/TokyoNight.colors ~/.local/share/color-schemes/
 
 cp -r ~/theming/avatars ~/Pictures
 
