@@ -35,7 +35,7 @@ flatpak install flathub com.vscodium.codium -y
 
 ## Gnome Extension Manager
 
-# flatpak install flathub com.mattjakeman.ExtensionManager -y
+flatpak install flathub com.mattjakeman.ExtensionManager -y
 
 ## Zen Browser
 
