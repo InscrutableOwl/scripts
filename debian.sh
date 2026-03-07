@@ -8,7 +8,7 @@ bash ~/scripts/package.sh
 
 bash ~/scripts/dvd.sh
 
-bash ~/scripts/flatpak.sh
+#bash ~/scripts/flatpak.sh
 
 bash ~/scripts/protonvpndeb.sh
 
