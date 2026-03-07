@@ -8,7 +8,7 @@ cd ~/dotfiles
 
 #cp ~/dotfiles/backups/bashfed ~/dotfiles/bashrc/.bashrc
 
-stow bashrc alacritty sounds
+stow bashrc sounds
 
 cd
 
