@@ -6,7 +6,7 @@
 
 bash ~/scripts/package.sh
 
-bash _/scripts/dvd.sh
+bash ~/scripts/dvd.sh
 
 bash ~/scripts/flatpak.sh
 
