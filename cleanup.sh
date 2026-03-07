@@ -6,8 +6,8 @@ rm ~/.bashrc
 
 cd ~/dotfiles
 
-stow bashrc sounds alacritty rofi
+stow bashrc sounds alacritty
 
 cd
 
-sudo apt remove firefox thunderbird -y
+#sudo apt remove firefox thunderbird -y
