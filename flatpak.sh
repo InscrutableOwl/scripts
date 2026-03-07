@@ -31,7 +31,7 @@ flatpak install flathub eu.betterbird.Betterbird -y
 
 ## VSCodium
 
-flatpak install flathub com.vscodium.codium -y
+#flatpak install flathub com.vscodium.codium -y
 
 ## Gnome Extension Manager
 
