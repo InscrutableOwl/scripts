@@ -14,4 +14,4 @@ sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb && sudo apt update -y
 sudo apt install proton-vpn-cli
 #sudo apt install proton-vpn-gnome-desktop
 
-sudo apt remove peg-e swell-foop -y
+#sudo apt remove peg-e swell-foop -y
