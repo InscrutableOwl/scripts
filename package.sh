@@ -15,3 +15,13 @@ sudo apt install proton-vpn-cli
 #sudo apt install proton-vpn-gnome-desktop
 
 #sudo apt remove peg-e swell-foop -y
+
+mkdir -p ~/.themes
+
+git clone https://github.com/InscrutableOwl/theming.git ~/theming
+
+sudo cp -r ~/theming/themes/* /usr/share/themes
+
+sudo cp -r ~/theming/fonts/* /usr/share/fonts
+
+cp -r ~/theming/themes/* ~/.themes
