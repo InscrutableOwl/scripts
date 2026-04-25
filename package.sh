@@ -2,7 +2,7 @@
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install lolcat sl cowsay fortunes fortune-mod ani-cli mpv mplayer aisleriot gnome-cards-data innoextract build-essential gcc make git asunder eza nala fastfetch btop vlc cmatrix lame curl wget stow toilet figlet innoextract bat -y
+sudo apt install lolcat sl cowsay fortunes fortune-mod ani-cli mpv mplayer aisleriot gnome-cards-data innoextract build-essential gcc make git asunder eza nala fastfetch btop vlc cmatrix lame curl wget stow toilet figlet bat -y
 
 sudo apt install libdvd-pkg regionset -y
 sudo dpkg-reconfigure libdvd-pkg 
