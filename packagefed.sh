@@ -22,6 +22,10 @@ sudo dnf install proton-vpn-gnome-desktop
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
+sudo dnf copr enable derisis13/ani-cli
+
+sudo dnf install ani-cli
+
 mkdir -p ~/.themes
 
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
