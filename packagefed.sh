@@ -12,7 +12,7 @@ sudo dnf install rpmfusion-free-release-tainted
 
 sudo dnf install libdvdcss
 
-sudo dnf install lolcat sl cowsay mpv mplayer innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet bat -y
+sudo dnf install lolcat sl cowsay mpv mplayer innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme bat -y
 
 wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.4-1.noarch.rpm"
 
