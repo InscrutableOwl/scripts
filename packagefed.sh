@@ -12,7 +12,7 @@ sudo dnf install rpmfusion-free-release-tainted
 
 sudo dnf install libdvdcss
 
-sudo dnf install lolcat sl cowsay mpv mplayer innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme bat -y
+sudo dnf install lolcat sl cowsay mpv mplayer innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme bat libreoffice-math libreoffice-draw libreoffice-base -y
 
 wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.4-1.noarch.rpm"
 
@@ -26,16 +26,16 @@ sudo dnf copr enable derisis13/ani-cli
 
 sudo dnf install ani-cli
 
-mkdir -p ~/.themes
+#mkdir -p ~/.themes
 
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
 
-sudo cp -r ~/theming/themes/* /usr/share/themes
+#sudo cp -r ~/theming/themes/* /usr/share/themes
 
 sudo cp -r ~/theming/fonts/* /usr/share/fonts
 
 sudo cp -r ~/theming/icons/* /usr/share/icons
 
-cp -r ~/theming/themes/* ~/.themes
+#cp -r ~/theming/themes/* ~/.themes
 
 #flatpak install flathub com.mattjakeman.ExtensionManager
