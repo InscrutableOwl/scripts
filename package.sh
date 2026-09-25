@@ -2,7 +2,7 @@
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install lolcat sl cowsay fortunes fortune-mod mpv mplayer aisleriot gnome-cards-data innoextract build-essential gcc make git eza nala fastfetch btop vlc cmatrix lame curl wget stow toilet figlet bat -y
+sudo apt install lolcat sl cowsay fortunes fortune-mod mpv mplayer innoextract build-essential gcc make git eza nala fastfetch btop vlc cmatrix lame curl wget stow toilet figlet bat -y
 
 sudo apt install libdvd-pkg regionset -y
 sudo dpkg-reconfigure libdvd-pkg 
@@ -14,7 +14,7 @@ sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb && sudo apt update -y
 sudo apt install proton-vpn-cli
 #sudo apt install proton-vpn-gnome-desktop
 
-#sudo apt remove peg-e swell-foop -y
+sudo apt remove peg-e swell-foop -y
 
 mkdir -p ~/.themes
 
