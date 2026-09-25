@@ -20,7 +20,7 @@ sudo dnf install ./protonvpn-stable-release-1.0.4-1.noarch.rpm && sudo dnf check
 
 sudo dnf install proton-vpn-cli
 
-#flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 sudo dnf copr enable derisis13/ani-cli
 
