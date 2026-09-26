@@ -26,6 +26,10 @@ sudo dnf copr enable derisis13/ani-cli
 
 sudo dnf install ani-cli
 
+sudo dnf copr enable scottames/ghostty
+
+sudo dnf install ghostty
+
 #mkdir -p ~/.themes
 
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
