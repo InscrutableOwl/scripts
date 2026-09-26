@@ -34,12 +34,16 @@ mkdir -p ~/.local/share/sounds
 
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
 
-#sudo cp -r ~/theming/themes/* /usr/share/themes
-
 sudo cp -r ~/theming/fonts/* /usr/share/fonts
 
 sudo cp -r ~/theming/icons/* /usr/share/icons
 
 cp -r ~/theming/sounds/* ~/.local/share/sounds
 
-#flatpak install flathub com.mattjakeman.ExtensionManager
+##Brave
+
+sudo dnf install dnf-plugins-core
+
+sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+
+sudo dnf install brave-browser
