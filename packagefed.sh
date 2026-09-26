@@ -40,6 +40,6 @@ sudo cp -r ~/theming/fonts/* /usr/share/fonts
 
 sudo cp -r ~/theming/icons/* /usr/share/icons
 
-#cp -r ~/theming/themes/* ~/.themes
+cp -r ~/theming/sounds/* ~/.local/share/sounds
 
 #flatpak install flathub com.mattjakeman.ExtensionManager
