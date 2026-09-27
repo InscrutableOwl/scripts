@@ -30,13 +30,19 @@ sudo dnf copr enable scottames/ghostty
 
 sudo dnf install ghostty
 
+mkdir -p ~/.themes
+
 mkdir -p ~/.local/share/sounds
 
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
 
+sudo cp -r ~/theming/themes/* /usr/share/themes
+
 sudo cp -r ~/theming/fonts/* /usr/share/fonts
 
 sudo cp -r ~/theming/icons/* /usr/share/icons
+
+cp -r ~/theming/themes/* ~/.themes
 
 cp -r ~/theming/sounds/* ~/.local/share/sounds
 
