@@ -18,7 +18,7 @@ wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f
 
 sudo dnf install ./protonvpn-stable-release-1.0.4-1.noarch.rpm && sudo dnf check-update --refresh 
 
-sudo dnf install proton-vpn-cli
+sudo dnf install proton-vpn-gnome-desktop
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
