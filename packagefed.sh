@@ -49,3 +49,9 @@ cp -r ~/theming/sounds/* ~/.local/share/sounds
 flatpak install flathub com.mattjakeman.ExtensionManager
 
 flatpak install flathub io.github.realmazharhussain.GdmSettings
+
+#sudo dnf install dnf-plugins-core
+
+#sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+
+#sudo dnf install brave-browser
