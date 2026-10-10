@@ -12,7 +12,7 @@ sudo dnf install rpmfusion-free-release-tainted
 
 sudo dnf install libdvdcss
 
-sudo dnf install lolcat sl cowsay mpv mplayer eza innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme bat libreoffice-math libreoffice-draw libreoffice-base -y
+sudo dnf install lolcat sl cowsay mpv mplayer eza innoextract gnome-tweaks gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme bat libreoffice-math libreoffice-draw libreoffice-base -y
 
 wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.4-1.noarch.rpm"
 
@@ -46,9 +46,9 @@ cp -r ~/theming/themes/* ~/.themes
 
 cp -r ~/theming/sounds/* ~/.local/share/sounds
 
-#flatpak install flathub com.mattjakeman.ExtensionManager
+flatpak install flathub com.mattjakeman.ExtensionManager
 
-#flatpak install flathub io.github.realmazharhussain.GdmSettings
+flatpak install flathub io.github.realmazharhussain.GdmSettings
 
 #sudo dnf install dnf-plugins-core
 
