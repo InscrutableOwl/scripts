@@ -14,9 +14,9 @@ sudo dnf install libdvdcss
 
 sudo dnf install lolcat sl cowsay mpv mplayer eza innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme bat libreoffice-math libreoffice-draw libreoffice-base -y
 
-wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.4-1.noarch.rpm"
+wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.5-1.noarch.rpm"
 
-sudo dnf install ./protonvpn-stable-release-1.0.4-1.noarch.rpm && sudo dnf check-update --refresh 
+sudo dnf install ./protonvpn-stable-release-1.0.5-1.noarch.rpm && sudo dnf check-update --refresh 
 
 sudo dnf install proton-vpn-gnome-desktop
 
@@ -50,8 +50,3 @@ cp -r ~/theming/sounds/* ~/.local/share/sounds
 
 #flatpak install flathub io.github.realmazharhussain.GdmSettings
 
-sudo dnf install dnf-plugins-core
-
-sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-
-sudo dnf install brave-browser
