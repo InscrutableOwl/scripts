@@ -7,9 +7,9 @@ sudo apt install lolcat sl cowsay fortunes fortune-mod mpv mplayer innoextract b
 sudo apt install libdvd-pkg regionset -y
 sudo dpkg-reconfigure libdvd-pkg 
 
-wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.8_all.deb
+wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.10_all.deb
 
-sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb && sudo apt update -y
+sudo dpkg -i ./protonvpn-stable-release_1.0.10_all.deb && sudo apt update -y
 
 sudo apt install proton-vpn-gnome-desktop
 
