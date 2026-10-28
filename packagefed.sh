@@ -30,7 +30,7 @@ sudo dnf copr enable scottames/ghostty
 
 sudo dnf install ghostty
 
-#mkdir -p ~/.themes
+mkdir -p ~/.themes
 
 mkdir -p ~/.local/share/sounds
 
@@ -46,7 +46,7 @@ sudo cp -r ~/theming/icons/* /usr/share/icons
 
 cp -r ~/theming/sounds/* ~/.local/share/sounds
 
-#flatpak install flathub com.mattjakeman.ExtensionManager
+flatpak install flathub com.mattjakeman.ExtensionManager
 
-#flatpak install flathub io.github.realmazharhussain.GdmSettings
+flatpak install flathub io.github.realmazharhussain.GdmSettings
 
