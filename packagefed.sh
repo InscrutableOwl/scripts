@@ -12,7 +12,7 @@ sudo dnf install rpmfusion-free-release-tainted
 
 sudo dnf install libdvdcss
 
-sudo dnf install lolcat sl cowsay mpv mplayer eza innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme gnome-tweaks bat libreoffice-math libreoffice-draw libreoffice-base -y
+sudo dnf install lolcat sl cowsay mpv mplayer eza innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme bat libreoffice-math libreoffice-draw libreoffice-base -y
 
 wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.5-1.noarch.rpm"
 
@@ -22,37 +22,41 @@ sudo dnf install proton-vpn-gnome-desktop
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-sudo dnf copr enable derisis13/ani-cli
+#sudo dnf copr enable derisis13/ani-cli
 
-sudo dnf install ani-cli
+#sudo dnf install ani-cli
 
-sudo dnf copr enable scottames/ghostty
+#sudo dnf copr enable scottames/ghostty
 
-sudo dnf install ghostty
+#sudo dnf install ghostty
 
-mkdir -p ~/.themes
+#mkdir -p ~/.themes
 
 mkdir -p ~/.local/share/sounds
 
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
 
-sudo cp -r ~/theming/themes/* /usr/share/themes
+#sudo cp -r ~/theming/themes/* /usr/share/themes
 
 sudo cp -r ~/theming/fonts/* /usr/share/fonts
 
 sudo cp -r ~/theming/icons/* /usr/share/icons
 
-cp -r ~/theming/themes/* ~/.themes
+#cp -r ~/theming/themes/* ~/.themes
 
 cp -r ~/theming/sounds/* ~/.local/share/sounds
 
-flatpak install flathub com.mattjakeman.ExtensionManager
+#flatpak install flathub com.mattjakeman.ExtensionManager
 
-flatpak install flathub io.github.realmazharhussain.GdmSettings
+#flatpak install flathub io.github.realmazharhussain.GdmSettings
 
 sudo dnf install dnf-plugins-core
 
 sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 
 sudo dnf install brave-browser
+
+# if [ -f ~/.bash_aliases ]; then
+#     . ~/.bash_aliases
+# fi
 
