@@ -22,13 +22,13 @@ sudo dnf install proton-vpn-gnome-desktop
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-sudo dnf copr enable derisis13/ani-cli
+#sudo dnf copr enable derisis13/ani-cli
 
-sudo dnf install ani-cli
+#sudo dnf install ani-cli
 
-sudo dnf copr enable scottames/ghostty
+#sudo dnf copr enable scottames/ghostty
 
-sudo dnf install ghostty
+#sudo dnf install ghostty
 
 mkdir -p ~/.themes
 
