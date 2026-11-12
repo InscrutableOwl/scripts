@@ -17,18 +17,15 @@ sudo apt remove peg-e swell-foop -y
 
 mkdir -p ~/.themes
 
+mkdir -p ~/.local/share/sounds
+
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
 
-#sudo cp -r ~/theming/themes/* /usr/share/themes
+sudo cp -r ~/theming/themes/* /usr/share/themes
 
 sudo cp -r ~/theming/fonts/* /usr/share/fonts
 
-#cp -r ~/theming/themes/* ~/.themes
+cp -r ~/theming/themes/* ~/.themes
 
-#sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+cp -r ~/theming/sounds/* ~/.local/share/sounds
 
-#sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
-
-#sudo apt update
-
-#sudo apt install brave-browser
