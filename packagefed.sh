@@ -26,6 +26,14 @@ sudo dnf copr enable derisis13/ani-cli
 
 sudo dnf install ani-cli
 
+sudo dnf copr enable refi64/webapp-manager
+
+sudo dnf install webapp-manager
+
+sudo dnf copr enable scottames/ghostty
+
+sudo dnf install ghostty
+
 #mkdir -p ~/.themes
 
 mkdir -p ~/.local/share/sounds
