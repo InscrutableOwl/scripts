@@ -60,6 +60,10 @@ cp ~/theming/bash_aliases ~/.bash_aliases
 
 #flatpak install flathub io.github.realmazharhussain.GdmSettings
 
+sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+
+sudo dnf install brave-browser
+
 echo "if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi" | tee --append ~/.bashrc
