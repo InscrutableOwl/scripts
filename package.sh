@@ -19,6 +19,12 @@ mkdir -p ~/.themes
 
 mkdir -p ~/.local/share/sounds
 
+mkdir -p ~/Pictures/Wallpapers
+
+mkdir -p ~/Pictures/avatars
+
+mkdir -p ~/.config/kitty
+
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
 
 sudo cp -r ~/theming/themes/* /usr/share/themes
@@ -31,3 +37,10 @@ cp -r ~/theming/themes/* ~/.themes
 
 cp -r ~/theming/sounds/* ~/.local/share/sounds
 
+cp -r ~/theming/walls/* ~/Pictures/Wallpapers
+
+cp -r ~/theming/avatars ~/Pictures/avatars
+
+cp -r ~/theming/kitty/* ~/.config/kitty
+
+cp ~/theming/bash_aliases ~/.bash_aliases
