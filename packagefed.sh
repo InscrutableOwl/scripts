@@ -12,7 +12,7 @@ sudo dnf install rpmfusion-free-release-tainted
 
 sudo dnf install libdvdcss
 
-sudo dnf install lolcat sl cowsay mpv mplayer eza innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme bat libreoffice-math libreoffice-draw libreoffice-base dnf-plugins-core dejavu-fonts-all gnome-tweaks gnome-extensions-app gnome-shell-extension-appindicator gnome-shell-extension-just-perfection gnome-shell-extension-dash-to-dock gnome-shell-extension-user-theme -y
+sudo dnf install lolcat sl cowsay mpv mplayer eza innoextract gcc make git fastfetch btop vlc lame curl wget stow toilet figlet papirus-icon-theme bat libreoffice-math libreoffice-draw libreoffice-base dnf-plugins-core dejavu-fonts-all -y #gnome-tweaks gnome-extensions-app gnome-shell-extension-appindicator gnome-shell-extension-just-perfection gnome-shell-extension-dash-to-dock gnome-shell-extension-user-theme -y
 
 wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.5-1.noarch.rpm"
 
@@ -62,7 +62,7 @@ cp -r ~/theming/avatars/* ~/Pictures/avatars
 
 #flatpak install flathub com.mattjakeman.ExtensionManager
 
-flatpak install flathub io.github.realmazharhussain.GdmSettings
+#flatpak install flathub io.github.realmazharhussain.GdmSettings
 
 sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 
