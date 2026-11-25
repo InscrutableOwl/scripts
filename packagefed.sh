@@ -30,25 +30,25 @@ sudo dnf copr enable scottames/ghostty
 
 sudo dnf install ghostty
 
-mkdir -p ~/.themes
+#mkdir -p ~/.themes
 
 mkdir -p ~/.local/share/sounds
 
 mkdir -p ~/Pictures/Wallpapers
 
-mkdir -p ~/Pictures/avatars
+#mkdir -p ~/Pictures/avatars
 
 mkdir -p ~/.config/ghostty
 
 git clone https://github.com/InscrutableOwl/theming.git ~/theming
 
-sudo cp -r ~/theming/themes/* /usr/share/themes
+#sudo cp -r ~/theming/themes/* /usr/share/themes
 
 sudo cp -r ~/theming/fonts/* /usr/share/fonts
 
-sudo cp -r ~/theming/icons/* /usr/share/icons
+#sudo cp -r ~/theming/icons/* /usr/share/icons
 
-cp -r ~/theming/themes/* ~/.themes
+#cp -r ~/theming/themes/* ~/.themes
 
 cp -r ~/theming/sounds/* ~/.local/share/sounds
 
@@ -58,7 +58,7 @@ cp ~/theming/bash_aliases ~/.bash_aliases
 
 cp ~/theming/ghostty/config.ghostty ~/.config/ghostty
 
-cp -r ~/theming/avatars/* ~/Pictures/avatars
+#cp -r ~/theming/avatars/* ~/Pictures/avatars
 
 #flatpak install flathub com.mattjakeman.ExtensionManager
 
