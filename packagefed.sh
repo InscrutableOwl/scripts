@@ -36,7 +36,7 @@ mkdir -p ~/.local/share/sounds
 
 mkdir -p ~/Pictures/Wallpapers
 
-#mkdir -p ~/Pictures/avatars
+mkdir -p ~/Pictures/avatars
 
 mkdir -p ~/.config/ghostty
 
@@ -58,7 +58,7 @@ cp ~/theming/bash_aliases ~/.bash_aliases
 
 cp ~/theming/ghostty/config.ghostty ~/.config/ghostty
 
-#cp -r ~/theming/avatars/* ~/Pictures/avatars
+cp -r ~/theming/avatars/* ~/Pictures/avatars
 
 #flatpak install flathub com.mattjakeman.ExtensionManager
 
